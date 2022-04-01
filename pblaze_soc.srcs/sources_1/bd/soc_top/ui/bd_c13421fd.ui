@@ -1,0 +1,101 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.646268",
+   "Default View_TopLeft":"-132,-105",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR3_0 -pg 1 -lvl 12 -x 4030 -y 960 -defaultsOSRD
+preplace port port-id_sfp_tx_p -pg 1 -lvl 12 -x 4030 -y 180 -defaultsOSRD
+preplace port port-id_sfp_tx_n -pg 1 -lvl 12 -x 4030 -y 160 -defaultsOSRD
+preplace port port-id_sfp_rx_p -pg 1 -lvl 0 -x -10 -y 510 -defaultsOSRD
+preplace port port-id_sfp_rx_n -pg 1 -lvl 0 -x -10 -y 490 -defaultsOSRD
+preplace port port-id_gtrefclk_p -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace port port-id_gtrefclk_n -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port port-id_LED_R -pg 1 -lvl 12 -x 4030 -y 1060 -defaultsOSRD
+preplace port port-id_LED_Y -pg 1 -lvl 12 -x 4030 -y 1040 -defaultsOSRD
+preplace port port-id_LED_G -pg 1 -lvl 12 -x 4030 -y 240 -defaultsOSRD
+preplace port port-id_CLK_50M -pg 1 -lvl 0 -x -10 -y 910 -defaultsOSRD
+preplace port port-id_UART_RX -pg 1 -lvl 0 -x -10 -y 1420 -defaultsOSRD
+preplace port port-id_UART_TX -pg 1 -lvl 12 -x 4030 -y 1210 -defaultsOSRD
+preplace portBus ddr3_dm -pg 1 -lvl 12 -x 4030 -y 1270 -defaultsOSRD
+preplace inst axi_ethernet_0 -pg 1 -lvl 5 -x 1450 -y 240 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 100 -y 910 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 10 -x 3500 -y 800 -defaultsOSRD
+preplace inst xbar_mmio -pg 1 -lvl 3 -x 700 -y 990 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -x 1030 -y 1340 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1450 -y 1200 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -x 1910 -y 660 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 4 -x 1030 -y 1180 -defaultsOSRD
+preplace inst axi_protocol_convert_1 -pg 1 -lvl 4 -x 1030 -y 1020 -defaultsOSRD
+preplace inst axi_protocol_convert_2 -pg 1 -lvl 5 -x 1450 -y 950 -defaultsOSRD
+preplace inst axi_dwidth_converter_0 -pg 1 -lvl 2 -x 380 -y 970 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 8 -x 2740 -y 800 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 11 -x 3850 -y 1010 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 9 -x 3100 -y 920 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 11 -x 3850 -y 1270 -defaultsOSRD
+preplace inst m_axi_dummy_0 -pg 1 -lvl 10 -x 3500 -y 970 -defaultsOSRD
+preplace inst bit_to_bus_4_0 -pg 1 -lvl 8 -x 2740 -y 670 -defaultsOSRD
+preplace inst bootrom -pg 1 -lvl 5 -x 1450 -y 1340 -defaultsOSRD
+preplace inst rocket_wrapper_0 -pg 1 -lvl 9 -x 3100 -y 770 -defaultsOSRD
+preplace inst axi_dwidth_converter_1 -pg 1 -lvl 7 -x 2380 -y 560 -defaultsOSRD
+preplace inst xbar_dma -pg 1 -lvl 8 -x 2740 -y 480 -defaultsOSRD
+preplace netloc CLK_50M_1 1 0 1 NJ 910
+preplace netloc axi_dma_0_mm2s_cntrl_reset_out_n 1 4 3 1250 530 1650J 470 2130
+preplace netloc axi_dma_0_mm2s_introut 1 6 2 2140 650 2600J
+preplace netloc axi_dma_0_mm2s_prmry_reset_out_n 1 4 3 1240 510 NJ 510 2090
+preplace netloc axi_dma_0_s2mm_introut 1 6 2 2160 660 NJ
+preplace netloc axi_dma_0_s2mm_prmry_reset_out_n 1 4 3 1260 820 NJ 820 2090
+preplace netloc axi_dma_0_s2mm_sts_reset_out_n 1 4 3 1280 500 NJ 500 2120
+preplace netloc axi_ethernet_0_mac_irq 1 5 3 NJ 200 NJ 200 2590
+preplace netloc axi_ethernet_0_mmcm_locked_out 1 5 7 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc axi_ethernet_0_sfp_txn 1 5 7 NJ 160 NJ 160 NJ 160 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc axi_ethernet_0_sfp_txp 1 5 7 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc axi_uartlite_0_interrupt 1 5 3 1690 830 2170J 700 NJ
+preplace netloc axi_uartlite_0_tx 1 5 7 NJ 1210 NJ 1210 NJ 1210 NJ 1210 NJ 1210 NJ 1210 NJ
+preplace netloc bit_to_bus_4_0_bus_out 1 8 1 2890 670n
+preplace netloc clk_wiz_0_clk_cpu 1 1 9 200 1050 550 1080 870 1260 1200 560 1690 460 2160 480 2550 870 2900 680 3300
+preplace netloc clk_wiz_0_clk_ref 1 1 10 190J 540 NJ 540 NJ 540 1220 540 1640J 450 NJ 450 2560J 570 NJ 570 NJ 570 3690J
+preplace netloc clk_wiz_0_locked 1 1 10 190 1060 560 1090 880 1100 1210 730 1630 810 2150 640 2580 580 NJ 580 3310 700 3670
+preplace netloc gtrefclk_n_1 1 0 5 NJ 180 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc gtrefclk_p_1 1 0 5 NJ 200 NJ 200 NJ 200 NJ 200 NJ
+preplace netloc mig_7series_0_init_calib_complete1 1 11 1 NJ 1060
+preplace netloc mig_7series_0_mmcm_locked 1 11 1 NJ 1040
+preplace netloc mig_7series_0_ui_clk 1 9 3 3310 900 NJ 900 4010
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 8 4 2890 1120 NJ 1120 NJ 1120 4000
+preplace netloc rx_0_1 1 0 6 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ 1420 1620
+preplace netloc sfp_rx_n_1 1 0 6 NJ 490 NJ 490 NJ 490 NJ 490 1190J 520 1630
+preplace netloc sfp_rx_p_1 1 0 6 NJ 510 210J 550 NJ 550 NJ 550 NJ 550 1620
+preplace netloc util_vector_logic_0_Res 1 9 1 3300J 840n
+preplace netloc vio_0_probe_out0 1 8 1 2880J 780n
+preplace netloc xlconstant_1_dout 1 11 1 NJ 1270
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 NJ 1340
+preplace netloc axi_clock_converter_0_M_AXI 1 10 1 3680 800n
+preplace netloc axi_dma_0_M_AXIS_CNTRL 1 4 3 1270 480 NJ 480 2110
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 4 3 1230 490 NJ 490 2100
+preplace netloc axi_dwidth_converter_0_M_AXI 1 2 1 N 970
+preplace netloc axi_ethernet_0_m_axis_rxd 1 5 1 1670 60n
+preplace netloc axi_ethernet_0_m_axis_rxs 1 5 1 1660 80n
+preplace netloc axi_protocol_convert_0_M_AXI 1 4 1 N 1180
+preplace netloc axi_protocol_convert_1_M_AXI 1 4 1 1180 100n
+preplace netloc axi_protocol_convert_2_M_AXI 1 5 1 1680 590n
+preplace netloc m_axi_dummy_0_m_axi 1 10 1 NJ 970
+preplace netloc mig_7series_0_DDR3 1 11 1 NJ 960
+preplace netloc rocket_wrapper_0_mem_axi4_0 1 9 1 N 760
+preplace netloc rocket_wrapper_0_mmio_axi4_0 1 1 9 210 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 NJ 860 3290
+preplace netloc xbar_mmio_M00_AXI 1 3 1 860 960n
+preplace netloc xbar_mmio_M01_AXI 1 3 1 850 980n
+preplace netloc xbar_mmio_M02_AXI 1 3 1 N 1000
+preplace netloc xbar_mmio_M03_AXI 1 3 2 840 930 NJ
+preplace netloc axi_dma_0_M_AXI_SG 1 6 1 2150 540n
+preplace netloc xbar_dma_M00_AXI 1 8 1 2910 480n
+preplace netloc axi_dma_0_M_AXI 1 6 2 2140 470 NJ
+preplace netloc axi_dwidth_converter_1_M_AXI 1 7 1 2570 450n
+levelinfo -pg 1 -10 100 380 700 1030 1450 1910 2380 2740 3100 3500 3850 4030
+pagesize -pg 1 -db -bbox -sgen -130 0 4180 1800
+"
+}
+{
+   "da_board_cnt":"1"
+}

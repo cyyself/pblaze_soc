@@ -1,0 +1,8 @@
+pblaze_soc.runs
+pblaze_soc.hw
+pblaze_soc.gen
+pblaze_soc.cache
+pblaze_soc.sim
+pblaze_soc.ip_user_files
+pblaze_soc.srcs/utils_1
+firmware.coe

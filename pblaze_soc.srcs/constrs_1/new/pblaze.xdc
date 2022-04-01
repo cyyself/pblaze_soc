@@ -1,0 +1,38 @@
+set_property PACKAGE_PIN D27 [get_ports CLK_50M]
+set_property IOSTANDARD LVCMOS18 [get_ports CLK_50M]
+
+set_property PACKAGE_PIN R24 [get_ports LED_G]
+set_property PACKAGE_PIN T21 [get_ports LED_R]
+set_property PACKAGE_PIN T20 [get_ports LED_Y]
+set_property IOSTANDARD LVCMOS33 [get_ports LED_G]
+set_property IOSTANDARD LVCMOS33 [get_ports LED_R]
+set_property IOSTANDARD LVCMOS33 [get_ports LED_Y]
+
+
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[7]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[6]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[5]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[4]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[3]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[2]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[1]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[0]}]
+set_property IOSTANDARD SSTL15 [get_ports {ddr3_dm[8]}]
+set_property PACKAGE_PIN AF17 [get_ports {ddr3_dm[0]}]
+set_property PACKAGE_PIN AB17 [get_ports {ddr3_dm[1]}]
+set_property PACKAGE_PIN Y15 [get_ports {ddr3_dm[2]}]
+set_property PACKAGE_PIN AE16 [get_ports {ddr3_dm[3]}]
+set_property PACKAGE_PIN AC7 [get_ports {ddr3_dm[4]}]
+set_property PACKAGE_PIN AK4 [get_ports {ddr3_dm[5]}]
+set_property PACKAGE_PIN AK3 [get_ports {ddr3_dm[6]}]
+set_property PACKAGE_PIN AF6 [get_ports {ddr3_dm[7]}]
+set_property PACKAGE_PIN AA13 [get_ports {ddr3_dm[8]}]
+
+#UART
+set_property PACKAGE_PIN B23 [get_ports UART_RX]
+set_property IOSTANDARD LVCMOS18 [get_ports UART_RX]
+set_property PACKAGE_PIN A23 [get_ports UART_TX]
+set_property IOSTANDARD LVCMOS18 [get_ports UART_TX]
+
+set_property PACKAGE_PIN U8 [get_ports gtrefclk_p]
+set_property PACKAGE_PIN P2 [get_ports sfp_tx_p]
