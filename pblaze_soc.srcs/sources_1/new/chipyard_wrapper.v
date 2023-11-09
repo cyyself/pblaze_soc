@@ -117,7 +117,6 @@ module chipyard_wrapper(
 
 ChipTop ct_inst(
     .axi4_mmio_0_clock(),
-    .axi4_mmio_0_reset(),
     .axi4_mmio_0_bits_aw_ready(axi4_mmio_0_awready),
     .axi4_mmio_0_bits_aw_valid(axi4_mmio_0_awvalid),
     .axi4_mmio_0_bits_aw_bits_id(axi4_mmio_0_awid),
@@ -193,10 +192,9 @@ ChipTop ct_inst(
     .axi4_fbus_0_bits_r_bits_data(axi4_fbus_0_rdata),
     .axi4_fbus_0_bits_r_bits_resp(axi4_fbus_0_rresp),
     .axi4_fbus_0_bits_r_bits_last(axi4_fbus_0_rlast),
-    .clock_clock(clock_clock),
-    .reset(reset),
+    .clock_uncore(clock_clock),
+    .reset_io(reset),
     .axi4_mem_0_clock(),
-    .axi4_mem_0_reset(),
     .axi4_mem_0_bits_aw_ready(axi4_mem_0_awready),
     .axi4_mem_0_bits_aw_valid(axi4_mem_0_awvalid),
     .axi4_mem_0_bits_aw_bits_id(axi4_mem_0_awid),
